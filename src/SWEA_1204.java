@@ -32,13 +32,12 @@ class SWEA_1204 {
 					count++;
 				}
 				else{
-					// 이 부분이 약간 비효율 적이긴 하다. (tmp 값이 무의미하게 증가만 하고 있고 불필요한 if 문이 실행될 수 있음)
-					if (count >= max) {
-						max = count;
-						max_score = tmp;
-					}
 					count = 0;
 					tmp++;
+				}
+				if (count >= max) { // 매번 마다 count 와 max 를 무조건 판단하게끔 변경
+					max = count;
+					max_score = tmp;
 				}
 
 
