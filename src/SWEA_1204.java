@@ -42,7 +42,7 @@ class SWEA_1204 {
 
 
 			}
-			System.out.printf("#%d %d\n", test_case, max_score);
+			System.out.printf("#%d %d\n", num, max_score);
 		}
 	}
 }
