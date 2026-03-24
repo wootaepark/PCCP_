@@ -45,7 +45,7 @@ public class BOJ1987_FIX { // 백준 1987 문제 개선 버전
 
 				// 해당 알파벳을 아직 사용하지 않았다면 (& 연산 결과가 0이면)
 				if ((visitedBit & nextCharBit) == 0) {
-					dfs(nr, nc, visitedBit | nextCharBit, count + 1);
+					dfs(nr, nc, visitedBit | nextCharBit, count + 1); // 인자로서 변환된 정보를 넘기는것 자체가 백트래킹의 목적
 					// | 연산을 통해 해당 알파벳의 방문 정보 비트에 추가
 				}
 			}
