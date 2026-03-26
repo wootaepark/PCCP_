@@ -6,7 +6,7 @@ public class BOJ1987 {
 
 	//https://www.acmicpc.net/problem/1987
 
-	static boolean[][] visited;
+
 	static char[][] alphabet;
 	static int[] dc = {1, 0, -1, 0};
 	static int[] dr = {0, 1, 0, -1};
@@ -17,7 +17,6 @@ public class BOJ1987 {
 		Scanner sc = new Scanner(System.in);
 		int row = sc.nextInt();
 		int col = sc.nextInt();
-		visited = new boolean[row][col];
 		alphabet = new char[row][col];
 
 		for (int i = 0; i < row; i++) {
@@ -27,28 +26,26 @@ public class BOJ1987 {
 		// 입력부 종료
 
 		Set<Character> charSet = new HashSet<>();
-		dfs(0, 0, alphabet, visited, charSet);
+		dfs(0, 0, alphabet, charSet);
 		System.out.println(answer);
 
 	}
 
-	private static void dfs(int row, int col, char[][] arr, boolean[][] visited,
+	private static void dfs(int row, int col, char[][] arr,
 		Set<Character> charSet) { // 시작점, 알파벳 배열, 방문 배열
 
 		count++;
 		charSet.add(arr[row][col]);
-		visited[row][col] = true;
 
 		for (int i = 0; i < 4; i++) {
 			int newRow = row + dr[i];
 			int newCol = col + dc[i];
 
 			if (newRow >= 0 && newCol >= 0 && newRow < arr.length && newCol < arr[0].length
-				&& !visited[newRow][newCol] && !charSet.contains(arr[newRow][newCol])) {
+				&& !charSet.contains(arr[newRow][newCol])) {
 
-				dfs(newRow, newCol, arr, visited, charSet);
+				dfs(newRow, newCol, arr,  charSet);
 				count--;
-				visited[newRow][newCol] = false;
 				charSet.remove(arr[newRow][newCol]);
 
 			}
