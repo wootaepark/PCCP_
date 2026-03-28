@@ -8,8 +8,10 @@ public class BOJ1987 {
 
 
 	static char[][] alphabet;
+
 	static int[] dc = {1, 0, -1, 0};
 	static int[] dr = {0, 1, 0, -1};
+
 	static int answer = 1, count = 0;
 
 	public static void main(String[] args) {
