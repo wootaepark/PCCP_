@@ -24,7 +24,6 @@ public class PR_49 {
 
 		BFS();
 		for (int i = 0; i < answer.length; i++) {
-
 			if (answer[i]) //
 				System.out.print(i + " ");
 		}
