@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SWEA_1926 {
 
 	// https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=2&contestProbId=AV5PTeo6AHUDFAUq&categoryId=AV5PTeo6AHUDFAUq&categoryType=CODE&problemTitle=&orderBy=INQUERY_COUNT&selectCodeLang=JAVA&select-1=2&pageSize=10&pageIndex=1
-	// (D2 문제)
+	// (D2 문제) -> 싸피 적성검사는 D3 이상은 풀어야함
 
 	public static void main(String[] args) throws Exception
 	{
