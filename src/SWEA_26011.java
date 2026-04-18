@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 
 class SWEA_26011 {
 	public static void main(String[] args) throws Exception {
+		// https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AZv-iZeqx2PHBIN6&categoryId=AZv-iZeqx2PHBIN6&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=1&&&&&&&&&&
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine().trim());
