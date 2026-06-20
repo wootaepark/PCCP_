@@ -10,7 +10,6 @@ public class SWEA_9658 {
 
 			int value_i = Integer.parseInt(input.substring(0, 3));
 			double value = value_i / 100.0;
-
 			int count = input.length() - 1;
 
 			// 내가 이전에 푼 코드는 999만 처리하고 998, 997 과 같은 건 9.9 로
