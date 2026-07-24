@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 // https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=2&problemLevel=4&contestProbId=AV5Pq-OKAVYDFAUq&categoryId=AV5Pq-OKAVYDFAUq&categoryType=CODE&problemTitle=&orderBy=INQUERY_COUNT&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=2
-// 배열을 올바른 for 문을 이용해서 출력하는 문제 D2 수준 치고는 조금은 까다로움
+// 배열을 올바른 for 문을 이용해서 출력하는 문제 (난이도 : D2)
 
 public class SWEA_1961 {
 	public static void main(String[] args) throws Exception {
