@@ -28,6 +28,7 @@ public class TripToIsland {
 
         for (int i = 0; i < len; i++) {
             String tmp = maps[i];
+
             for (int j = 0; j < len2; j++) {
                 arr[i][j] = tmp.charAt(j);
             }
